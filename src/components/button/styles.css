@@ -1,0 +1,17 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .button-color {
+    @apply bg-pink-600;
+  }
+  .button-color-hover {
+    @apply bg-pink-700
+  }
+
+  .border-button-color {
+    @apply border-pink-600
+  }
+}
