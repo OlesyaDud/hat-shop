@@ -4,9 +4,9 @@ import PopularProductCard from "../../components/product-card/PopularProductCard
 
 const PopularProducts = () => {
   return (
-    <section id="products" className="max-sm:mt-12">
-      <div className="flex flex-col justify-center items-center  sm:items-start gap-5 text-center sm:text-left mt-10">
-        <div className="flex flex-col justify-center sm:items-start items-center text-center sm:text-left">
+    <section id="products" className="max-sm:mt-12 px-4">
+      <div className="max-w-7xl mx-auto flex flex-col justify-center items-center gap-5 text-center">
+        <div className="flex flex-col items-center text-center">
           <h2 className="text-4xl font-palanquin font-bold">
             See What's <span className="text-yellow-400">Just In!</span>
           </h2>
